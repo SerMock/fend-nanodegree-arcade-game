@@ -1,6 +1,6 @@
 // --- Enemies --- ///
 
-// Enemie movement
+// Enemy movement
 let Enemy = function(x, y, speed) {
     this.x = x;
     this.y = y;
@@ -37,6 +37,8 @@ Enemy.prototype.render = function() {
 };
 
 // --- Player --- //
+
+// Player movement
 let Player = function(x, y, speed) {
     this.x = x;
     this.y = y;
